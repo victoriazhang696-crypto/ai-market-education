@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 
 // Supabase 配置 - 第二套数据库
 const SUPABASE_URL = process.env.SUPABASE_URL || 'https://uwjwlgqexmzyfblwmbuo.supabase.co';
-const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV3andsZ3FleG16eWZibHdtYnVvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc5NDM5MjMsImV4cCI6MjA5MzUxOTkyM30.OxbSGlLz1bUf3y-2g7dWcSbQa4Rw1jTQy0QOqjMh3Yk';
+const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV3andsZ3FleG16eWZibHdtYnVvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgwNzMwNDksImV4cCI6MjA5MzY0OTA0OX0.j0za_7PB4uvS7WQPUoCypaFDYnfu74dvG053NOzMbYc';
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
